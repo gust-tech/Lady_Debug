@@ -1,1 +1,1 @@
-Branch principal aonde serão armazenados todos os trabalhos de design já feitos.
+Branch principal da aplicação utilizada no deploy do Vercel.
