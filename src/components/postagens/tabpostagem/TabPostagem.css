@@ -1,0 +1,12 @@
+.titulo{
+    font-weight: bold;
+ }
+
+ .bgtab {
+    background-color: black;
+ }
+
+ .papel{
+   background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+   background-color: rgb(50, 4, 100) !important;
+}

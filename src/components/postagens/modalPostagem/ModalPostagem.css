@@ -1,0 +1,12 @@
+.cursor{
+    cursor: pointer;
+}
+
+.novapost{
+    border-color: rgb(82, 220, 255) !important;
+    background-color: rgb(159, 221, 247) !important;
+}
+
+.botao{
+    background-color: rgb(226, 57, 226) !important;
+}

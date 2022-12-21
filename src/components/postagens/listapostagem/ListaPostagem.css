@@ -1,0 +1,12 @@
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.botao{
+    background-color: rgb(226, 57, 226) !important;
+}
+
+.papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+}

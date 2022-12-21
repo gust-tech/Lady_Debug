@@ -1,0 +1,49 @@
+.textos1{
+   font-weight: bold;
+}
+
+.imagem{
+    background-image: url(img/women-web-developer-with-laptop.png);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-decorator-none{
+    text-decoration: none;
+}
+.botao{
+    background-color: rgb(226, 57, 226) !important;
+}
+.papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+}
+.branco{
+    background-color: white;
+}
+.rosa{
+    color: rgb(219, 51, 213) !important;
+}
+.cor{
+    color: white !important;
+}
+.font{
+    font-family: 'Courier New', Courier, monospace !important;
+}
+.imagem3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.fonte{
+    color: rgb(227, 220, 230) !important;
+    font-weight: 900 !important;
+    font-family: 'Stencil Std, fantasy' !important;
+ }

@@ -1,0 +1,12 @@
+.topo{
+    margin-top: 20px;
+}
+
+.papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+ }
+
+ .botao{
+    background-color: rgb(226, 57, 226) !important;
+}
