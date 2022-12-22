@@ -2,6 +2,11 @@
     margin-top: 40px;
 }
 
-.botao{
-    background-color: rgb(226, 57, 226) !important;
+.botaopostagem{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+}
+
+.postcad{
+    background-color: rgb(160, 159, 162) !important;
 }

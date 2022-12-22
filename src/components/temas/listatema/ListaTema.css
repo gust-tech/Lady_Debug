@@ -7,9 +7,20 @@
 }
 .fundocaixatema{
     background:linear-gradient(rgba(52, 1, 69, 0.5),transparent) !important;
-    background-color: rgb(241, 230, 240) !important;
+    background-color: rgb(111, 241, 222) !important;
  }
  .papeltemas{
-    background:radial-gradient(rgba(239, 236, 239, 0.5),transparent) !important;
-    background-color: rgb(140, 79, 155) !important;
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
 }
+.caixalistatema{
+    width: 50vh !important;
+    min-height: 10vh !important;
+    padding: 1px !important;
+    padding-left: 10px !important;
+
+}
+.displayflextema{
+    display: flex !important;
+}
+

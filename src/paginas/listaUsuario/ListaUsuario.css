@@ -18,15 +18,21 @@
     justify-content: center;
 }
 
-.bgblackusuarios {
-    background-color: black;
+.fundolista {
+    background:linear-gradient(rgb(108, 71, 133),transparent)!important;
+    background-color: rgb(121, 73, 73) !important;
+    padding-top: 1px !important;
 }
 
 .papelusuarios{
-    background:radial-gradient(rgba(239, 236, 239, 0.5),transparent) !important;
-    background-color: rgb(140, 79, 155) !important;
+    background:radial-gradient(rgba(158, 157, 157, 0.5),transparent) !important;
+    background-color: rgb(45, 2, 57) !important;
+    width: 400px !important;
+    min-height: 100px !important;
+    padding: 1px !important;
 }
-
-.paddusuarios {
-    padding-top: 1px;
+.fonttextousuarios{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(176, 174, 176);
+    font-size: medium;
 }

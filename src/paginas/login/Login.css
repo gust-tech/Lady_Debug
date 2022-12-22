@@ -2,8 +2,16 @@
    font-size: bold;
 }
 
-.imagem{
+.imagemfundologin{
     background-image: url(img/women-web-developer-with-laptop.png);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.imagemfundologin1{
+    background-image: url(img/galaxy.gif);
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
@@ -19,16 +27,13 @@
 }
 .papel{
     background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
-    background-color: rgb(50, 4, 100) !important;
-}
-.caixalogin{
-    background-color: rgb(193, 183, 183) !important;
+    background-color: rgb(65, 6, 127) !important;
 }
 .link{
-    color: rgb(219, 51, 213) !important;
+    color: rgb(212, 94, 239) !important;
 }
 .cor{
-    color: rgb(210, 192, 192) !important;
+    color: rgb(246, 240, 240) !important;
 }
 .font{
     color: rgb(227, 220, 230) !important;
@@ -45,4 +50,9 @@
 .imagem3:hover{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+}
+.bordalogin{
+    border-right: 20px !important;
+    background-color: rgb(247, 239, 239) !important;
+    font-variant-alternates: normal;
 }

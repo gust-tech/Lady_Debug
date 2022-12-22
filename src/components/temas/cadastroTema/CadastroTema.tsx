@@ -1,5 +1,5 @@
 import React, {useState, useEffect, ChangeEvent} from 'react'
-import { Container, Typography, TextField, Button } from "@material-ui/core"
+import { Container, Typography, TextField, Button, Grid } from "@material-ui/core"
 import {useNavigate, useParams } from 'react-router-dom'
 import './CadastroTema.css';
 import Tema from '../../../models/Tema';
@@ -109,17 +109,20 @@ function CadastroTema() {
         }
         TabTitle('Lady Debug - Criar tema');
     return (
-        <Container maxWidth="sm" className=''>
-            <form onSubmit={onSubmit}>
-                <Typography variant="h3" color="textSecondary" component="h1" align="center" >Cadastro de Tema</Typography>
-                <TextField value={tema.assunto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedTema(e)} id="assunto" label="Tema" variant="outlined" name="assunto" margin="normal" fullWidth />
-                <TextField value={tema.descricao} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedTema(e)} id="descricao" label="Descrição" variant="outlined" name="descricao" margin="normal" fullWidth />
+        <Grid className='fundotema'>
+            <Grid alignItems="center" item xs={12} className='fundotema'>
+            <form onSubmit={onSubmit}  className='formcadastro'>
+
+                <Typography variant="h3" className='fontecadtema' component="h1" align="center">Cadastro de Tema</Typography>
+                <TextField className='cortemacaixa' value={tema.assunto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedTema(e)} id="assunto" label="Tema" name="assunto" margin="normal" fullWidth />
+                <TextField className='cortemacaixa' value={tema.descricao} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedTema(e)} id="descricao" label="Descrição" name="descricao" margin="normal" fullWidth />
                 
-                <Button type="submit" variant="contained" className='botao'>
+                <Button type="submit" variant="contained" className='botaocadtema'>
                     Finalizar
                 </Button>
             </form>
-        </Container>
+            </Grid>
+        </Grid>
     )
 }
 

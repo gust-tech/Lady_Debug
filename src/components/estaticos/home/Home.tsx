@@ -35,7 +35,7 @@ function Home() {
     TabTitle('Lady Debug - Home');
     return (
         <>
-            <Grid container direction="row"  alignItems="center" className='img3'>
+            <Grid container direction="row"  alignItems="center" className='imagemhome'>
                 <Grid alignItems="center" item xs={12}>
                     <Box paddingX={20} >
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='fontes'>Seja bem-vinda!</Typography>

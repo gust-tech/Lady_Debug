@@ -80,17 +80,17 @@ function ListaUsuario() {
           <span className="loader"></span>
         </div>
       )}
-      <div className="bgblackusuarios paddusuarios">
+      <div className='fundolista center'>
         <h1 className='fontusuarios center'>Usuários Cadastrados</h1>
-        <Grid container className="imgusuarios center">
+        <Grid container className='imgusuarios center'>
           {user.map((user, i) => (
-            <Box m={2} className="postagens">
+            <Box className="cardusuario" m={1}>
               <Card className="papelusuarios center" variant="outlined">
                 <CardContent>
                   <Typography
                     variant="h5"
                     component="h2"
-                    className="fontusuarios"
+                    className="fonttextousuarios"
                   >
                     {user.nome}
                     <br />

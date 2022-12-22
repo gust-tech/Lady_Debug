@@ -81,15 +81,16 @@ function CadastroUsuario() {
     TabTitle('Lady Debug - Cadastro');
     return (
         <Grid container direction='row' justifyContent='center' alignItems='center' className='papel'>
-            <Grid item xs={6} className='imagem2'></Grid>
-            <Grid item xs={6} alignItems='center'>
-                <Box paddingX={10}>
+            <Grid alignItems="center" item xs={12} className='imagem2'>
+            <Grid item xs={12}></Grid>
+            <Grid item xs={12} alignItems='center'>
+                <Box paddingX={50}>
                     <form onSubmit={onSubmit}>
-                        <Typography variant='h2' gutterBottom color='textPrimary' component='h2' align='center' className='texto2 regular bc'>Criar conta</Typography>
+                        <Typography variant='h2' gutterBottom color='textPrimary' component='h2' align='center' className='fontcadastro'>Criar conta</Typography>
                         <TextField className='branco' value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='nome' label='Nome' variant='outlined' name='nome' margin='normal' fullWidth />
                         <TextField className='branco' value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}id='usuario' label='Email' variant='outlined' name='usuario' margin='normal'fullWidth />
                         <TextField className='branco' value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}id='senha' label='Senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth />
-                        <TextField className='branco' value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)}id='confirmarSenha' label='confirmarSenha' variant='outlined' name='confirmarSenha' margin='normal' type='password' fullWidth />
+                        <TextField className='branco' value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)}id='confirmarSenha' label='Confirmar Senha' variant='outlined' name='confirmarSenha' margin='normal' type='password' fullWidth />
                         <TextField className='branco' value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='foto' label='Foto' variant='outlined' name='foto' margin='normal' fullWidth />
                         <Box marginTop={2} textAlign='center'>
                             <Link to='/login' className='text-decorator-none'>
@@ -103,6 +104,7 @@ function CadastroUsuario() {
                         </Box>
                     </form>
                 </Box>
+                </Grid>
             </Grid>
 
 
