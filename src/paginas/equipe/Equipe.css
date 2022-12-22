@@ -12,7 +12,7 @@
     
 }
 
-.imagemeq{
+.imagemequipe{
     display: block;
     width: 220px;
     height: 220px;
@@ -30,11 +30,11 @@
     column-fill: auto;
 }
 .rx{
-    background-color: rgb(226, 57, 226) !important;
+    background-color: rgb(6, 1, 6) !important;
 }
-.papel{
-    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
-    background-color: rgb(50, 4, 100) !important;
+.fundoequipe{
+    background:linear-gradient(rgba(253, 35, 158, 0.5),transparent) !important;
+    background-color: rgb(185, 18, 218) !important;
 
 }
 .branco{
@@ -50,10 +50,21 @@
     font-family: 'Courier New', Courier, monospace !important;
 }
 
-.fontbceq {
-    color: white
-}
-
 .tipofonteq {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fontequipe{
+    color: rgb(253, 251, 253) !important;
+    font-weight: 900 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    color: rgb(18, 19, 19); text-shadow: rgb(236, 165, 230) 0.1em 0.1em 0.3em !important;
+ 
+ }
+ .imagemequipe1{
+    background-image: url(img/outerspace-60.webp);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
 }

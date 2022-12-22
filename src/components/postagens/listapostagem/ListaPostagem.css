@@ -3,10 +3,17 @@
 }
 
 .botao{
-    background-color: rgb(226, 57, 226) !important;
+    background-color: rgb(147, 128, 147) !important;
 }
 
-.papel{
-    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
-    background-color: rgb(50, 4, 100) !important;
+.papelpost{
+    background:radial-gradient(rgba(239, 236, 239, 0.5),transparent) !important;
+    background-color: rgb(140, 79, 155) !important;
+}
+.atum{
+color: aliceblue !important;
+background-color: rgb(226, 57, 226) !important;
+}
+.fundos{
+    background-color: aquamarine;
 }

@@ -8,6 +8,7 @@ import './ListaPostagem.css';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 import { toast } from 'react-toastify';
+import { TabTitle } from '../../../tituloPaginas/GeneralFunctions';
 
 function ListaPostagem() {
   const [posts, setPosts] = useState<Postagem[]>([])
@@ -45,16 +46,17 @@ function ListaPostagem() {
 
     getPost()
 
-  }, [posts.length])
+   }, [posts.length]);
+  TabTitle('Lady Debug - Postagens');
 
   return (
     <>
       {
         posts.map(post => (
-          <Box m={2} >
-            <Card variant="outlined">
+          <Box m={1}>
+            <Card variant="outlined" className='papelpost'>
               <CardContent>
-                <Typography color="textSecondary" gutterBottom>
+                <Typography color="textSecondary" gutterBottom className='cordefundo'>
                   Postagem
                 </Typography>
                 <Typography variant="h5" component="h2">
@@ -72,7 +74,7 @@ function ListaPostagem() {
 
                   <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                     <Box mx={1}>
-                      <Button variant="contained" className="marginLeft botao" size='small'>
+                      <Button variant="contained"size='small' className="atum">
                         Atualizar
                       </Button>
                     </Box>

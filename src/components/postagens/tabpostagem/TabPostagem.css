@@ -2,8 +2,10 @@
     font-weight: bold;
  }
 
- .bgtab {
-    background-color: black;
+ .imagetab {
+   background:linear-gradient(rgb(103, 3, 114),transparent) !important;
+   background-color: rgb(15, 15, 16) !important;
+
  }
 
  .papel{

@@ -18,6 +18,7 @@ import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Equipe from './paginas/equipe/Equipe';
 import Sobre from './paginas/sobre/Sobre';
+import ListaUsuario from './paginas/listaUsuario/ListaUsuario';
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
           <Route path="/temas" element={<ListaTema />} />
 
           <Route path="/posts" element={<ListaPostagem />} />
+
+          <Route path="/usuarios" element={<ListaUsuario />} />
 
           <Route path="/formularioPostagem" element={<CadastroPost />} />
 

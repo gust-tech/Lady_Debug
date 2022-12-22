@@ -7,6 +7,11 @@
     background-color: rgb(159, 221, 247) !important;
 }
 
-.botao{
-    background-color: rgb(226, 57, 226) !important;
+.botaomodal{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/983/983952.png);
+    background-repeat: no-repeat;
+    width: 7vh;
+    min-height: 7vh;
+    background-size: contain;
+    background-position: center;
 }

@@ -1,5 +1,5 @@
 .textos1{
-   font-weight: bold;
+   font-size: bold;
 }
 
 .imagem{
@@ -21,18 +21,22 @@
     background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
     background-color: rgb(50, 4, 100) !important;
 }
-.branco{
-    background-color: white;
+.caixalogin{
+    background-color: rgb(193, 183, 183) !important;
 }
-.rosa{
+.link{
     color: rgb(219, 51, 213) !important;
 }
 .cor{
-    color: white !important;
+    color: rgb(210, 192, 192) !important;
 }
 .font{
-    font-family: 'Courier New', Courier, monospace !important;
-}
+    color: rgb(227, 220, 230) !important;
+    font-weight: 900 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    color: rgb(18, 19, 19); text-shadow: rgb(191, 0, 255) 0.1em 0.1em 0.2em !important;
+ 
+ }
 .imagem3{
     transition: all 0.5s;
     cursor: pointer;
@@ -42,8 +46,3 @@
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
-.fonte{
-    color: rgb(227, 220, 230) !important;
-    font-weight: 900 !important;
-    font-family: 'Stencil Std, fantasy' !important;
- }

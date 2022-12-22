@@ -2,11 +2,14 @@
     margin-top: 20px;
 }
 
-.papel{
-    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
-    background-color: rgb(50, 4, 100) !important;
+.fundotema{
+    background:linear-gradient(rgba(248, 9, 156, 0.5),transparent) !important;
+    background-color: rgb(220, 194, 219) !important;
  }
 
  .botao{
-    background-color: rgb(226, 57, 226) !important;
+    background-color: rgb(114, 75, 114) !important;
+}
+.margintop{
+    margin-top: 100% !important;
 }

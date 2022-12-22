@@ -2,10 +2,12 @@
     background-color: rgb(245, 242, 245);
 }
 
-.fonte{
+.fontes{
    color: rgb(227, 220, 230) !important;
    font-weight: 900 !important;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+   color: rgb(18, 19, 19); text-shadow: rgb(191, 0, 255) 0.1em 0.1em 0.2em !important;
+
 }
 
 .botao{
@@ -28,7 +30,7 @@
 
 .img3{
 
-    background-image: url(https://acegif.com/wp-content/uploads/gif/outerspace-60.gif);
+    background-image: url(img/outerspace-60.webp);
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 150vh;

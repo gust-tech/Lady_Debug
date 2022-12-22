@@ -7,6 +7,7 @@ import { buscaId, post, put } from '../../../services/Service';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 import { toast } from 'react-toastify';
+import { TabTitle } from '../../../tituloPaginas/GeneralFunctions';
 
 
 function CadastroTema() {
@@ -106,9 +107,9 @@ function CadastroTema() {
         function back() {
             navigate('/temas')
         }
-  
+        TabTitle('Lady Debug - Criar tema');
     return (
-        <Container maxWidth="sm">
+        <Container maxWidth="sm" className=''>
             <form onSubmit={onSubmit}>
                 <Typography variant="h3" color="textSecondary" component="h1" align="center" >Cadastro de Tema</Typography>
                 <TextField value={tema.assunto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedTema(e)} id="assunto" label="Tema" variant="outlined" name="assunto" margin="normal" fullWidth />
