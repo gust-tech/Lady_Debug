@@ -69,7 +69,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
                 </a>
                
-                    <img src="https://cdn.discordapp.com/attachments/1048221568901320804/1048242964377374731/foto-kaio.png" 
+                    <img src="https://cdn.discordapp.com/attachments/1022826880786776115/1055661708456247347/IMG_20221222_224204.jpg" 
                     className= 'tamanhos imagemequipe' />    
                 
                 <li className='fontequipe tipofonteq'>Kaio Lima</li>
