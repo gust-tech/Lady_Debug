@@ -1,0 +1,32 @@
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.botao{
+    background-color: rgb(226, 57, 226) !important;
+}
+
+.papelpost{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+
+}
+
+.atum{
+color: aliceblue !important;
+background-color: rgb(226, 57, 226) !important;
+}
+
+.fundos{
+    background-color: aquamarine;
+}
+.caixalistapost{
+    width: 50vh !important;
+    min-height: 10vh !important;
+    padding: 1px !important;
+    padding-left: 10px !important;
+}
+
+.displayflex{
+    display: flex !important;
+}

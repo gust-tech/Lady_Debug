@@ -1,0 +1,20 @@
+.cursor {
+    cursor: pointer;
+    color: white
+}
+
+.text-decorator-none {
+    text-decoration: none !important;
+}
+
+.bgnav {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.textobranco {
+    color: white;
+}
+
+.centro {
+    justify-content: center;
+}

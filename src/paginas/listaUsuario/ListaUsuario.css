@@ -1,0 +1,33 @@
+.centrousuarios {
+    justify-content: center;
+}
+
+.fundolista {
+    background:linear-gradient(rgb(108, 71, 133),transparent)!important;
+    background-color: rgb(121, 73, 73) !important;
+    padding-top: 1px !important;
+}
+
+.papelusuarios{
+    background:radial-gradient(rgba(158, 157, 157, 0.5),transparent) !important;
+    background-color: rgb(45, 2, 57) !important;
+    width: 400px !important;
+    min-height: 100px !important;
+    padding: 1px !important;
+}
+
+.fonttextousuarios{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: rgb(9, 9, 9) !important;
+    font-size: medium !important;
+}
+
+.fundousuario{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+ }
+
+ .papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+ }

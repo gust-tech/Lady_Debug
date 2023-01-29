@@ -1,0 +1,31 @@
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.botao{
+    background-color: rgb(226, 57, 226) !important;
+}
+.fundocaixatema{
+    background:linear-gradient(rgba(52, 1, 69, 0.5),transparent) !important;
+    background-color: rgb(111, 241, 222) !important;
+ }
+ .papeltemas{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+}
+.caixalistatema{
+    width: 50vh !important;
+    min-height: 10vh !important;
+    padding: 1px !important;
+    padding-left: 10px !important;
+
+}
+.displayflextema{
+    display: flex !important;
+}
+
+.atum{
+    color: aliceblue !important;
+    background-color: rgb(226, 57, 226) !important;
+    }
+

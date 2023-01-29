@@ -1,0 +1,72 @@
+.textos2{
+    font-weight: bold;
+}
+
+.btnCancelar{
+    margin-right: 10px !important;
+}
+.rx{
+    background-color: rgb(226, 57, 226) !important;
+}
+.papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+
+}
+.caixacadastro{
+    background-color: rgb(7, 230, 156) !important;
+    border-bottom: 100vh !important;
+    color: rgb(0, 255, 217) !important;
+}
+.rosa{
+    color: rgb(219, 51, 213) !important;
+}
+.bc{
+    color: white !important;
+}
+.fontcadastro{
+    color: rgb(7, 7, 7) !important;
+    font-weight: 900 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+ }
+
+  .cor1{
+    background-color: blueviolet !important;
+  }
+  .cor2{
+    background-color: gray !important;
+  }
+  .imagem3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.branco2{
+    background-color: white;
+  
+}
+
+.fundocadastro{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+    width: 100vh;
+    min-height: 100vh;
+ }
+
+ .linha{
+    display: flex;
+ }
+
+.alinhado{
+    justify-content: center;
+}
+
+.atum{
+    color: aliceblue !important;
+    background-color: rgb(226, 57, 226) !important;
+}

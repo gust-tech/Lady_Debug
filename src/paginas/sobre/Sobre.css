@@ -1,0 +1,74 @@
+.center{
+    justify-content: center;
+}
+.img{
+    width:900px; 
+    height: 425px;
+}
+
+.papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+ }
+
+.tipofontsb {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    color: rgb(7, 7, 7) !important;
+}
+
+.fontesobre{
+   color: rgb(7, 7, 7) !important;
+   font-weight: 900 !important;
+   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+   color: rgb(250, 252, 252); text-shadow: rgb(236, 165, 230) 0.1em 0.1em 0.3em !important;
+ }
+ .fonttextosobre{
+    color: rgb(3, 3, 3);
+    
+ }
+
+ .fundosobre{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+    width: 100vh;
+    min-height: 100vh;
+ }
+
+ .fonte2{
+   color: rgb(7, 7, 7) !important;
+   font-weight: 900 !important;
+   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+ 
+ }
+
+ .forum{
+    background-image: url(img/forum.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .tecnlogia{
+    background-image: url(img/tecnologia.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .mulher{
+    background-image: url(img/mulher.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .flex{
+    display: flex;
+ }
