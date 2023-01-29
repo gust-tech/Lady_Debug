@@ -80,21 +80,19 @@ function ListaUsuario() {
           <span className="loader"></span>
         </div>
       )}
-      <div className='fundolista center'>
-        <h1 className='fontusuarios center'>Usuários Cadastrados</h1>
-        <Grid container className='imgusuarios center'>
+        <Grid container className='center'>
           {user.map((user, i) => (
             <Box className="cardusuario" m={1}>
-              <Card className="papelusuarios center" variant="outlined">
+              <Card className="fundousuario center" variant="outlined">
                 <CardContent>
                   <Typography
                     variant="h5"
                     component="h2"
                     className="fonttextousuarios"
                   >
-                    {user.nome}
+                    Nome: {user.nome}
                     <br />
-                    {user.usuario}
+                    E-mail: {user.usuario}
                     <br />
                   </Typography>
                   <br />
@@ -106,9 +104,8 @@ function ListaUsuario() {
             </Box>
           ))}
         </Grid>
-      </div>
-    </>
-  );
+     </>
+  )
 }
 
 export default ListaUsuario;

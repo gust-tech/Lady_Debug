@@ -170,17 +170,15 @@ function CadastroPost() {
 
     return (
         <>
-<Grid className='centralizarImg'>
-            <img src='https://cdn.discordapp.com/attachments/1011758147494498377/1055504651795054712/sale-removebg-preview.png'></img>
-
+<Grid>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9625A9&width=435&lines=Seja+bem-vinda+%E2%9D%A4%EF%B8%8F;Cadastre+sua+postagem+aqui+%F0%9F%98%81;Pressione+Esc+para+fechar+%E2%9D%8C" alt="Typing SVG" /></a>
             </Grid>
         
-        
         <Container maxWidth="sm" className="topo">
-            <form onSubmit={onSubmit}>
+                        <form onSubmit={onSubmit}>
                 {/* <Typography variant="h3" color="textSecondary" component="h1" align="center" >Formulário de cadastro postagem</Typography> */}
-                <TextField value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="TITULO" variant="outlined" name="titulo" margin="normal" fullWidth />
-                <TextField value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="TEXTO" name="texto" variant="outlined" margin="normal" fullWidth />
+                <TextField value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="Título" variant="outlined" name="titulo" margin="normal" fullWidth />
+                <TextField value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="Texto" name="texto" variant="outlined" margin="normal" fullWidth />
 
                 <FormControl >
                     <InputLabel id="demo-simple-select-helper-label">Tema </InputLabel>
@@ -198,6 +196,7 @@ function CadastroPost() {
                             ))
                         }
                     </Select>
+                    <FormControl>
                     <InputLabel id="demo-simple-select-helper-label">Usuário </InputLabel>
                     <Select
                         labelId="demo-simple-select-helper-label"
@@ -213,8 +212,9 @@ function CadastroPost() {
                             ))
                         }
                     </Select>
+                    </FormControl>
                     <FormHelperText>Escolha um tema e usuário para finalizar</FormHelperText>
-                    <Button type="submit" variant="contained" color="primary">
+                    <Button type="submit" variant="contained" color="primary" className='atum'>
                         Finalizar
                     </Button>
                 </FormControl>

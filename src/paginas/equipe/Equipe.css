@@ -54,10 +54,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .fontequipe{
-    color: rgb(253, 251, 253) !important;
+    color: rgb(7, 7, 7) !important;
     font-weight: 900 !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    color: rgb(18, 19, 19); text-shadow: rgb(236, 165, 230) 0.1em 0.1em 0.3em !important;
  
  }
  .imagemequipe1{
@@ -68,3 +67,10 @@
     background-size: cover;
     background-position: center;
 }
+
+.fundoequipe{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+    width: 100vh;
+    min-height: 100vh;
+ }

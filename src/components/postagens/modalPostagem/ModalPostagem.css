@@ -10,8 +10,7 @@
 .botaomodal{
     background-image: url(https://cdn-icons-png.flaticon.com/512/983/983952.png);
     background-repeat: no-repeat;
-    width: 7vh;
-    min-height: 7vh;
     background-size: contain;
     background-position: center;
+    height: 33px
 }

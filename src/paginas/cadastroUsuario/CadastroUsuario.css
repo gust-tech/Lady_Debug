@@ -1,5 +1,5 @@
 .imagem2{
-    background-image: url(img/galaxy.gif);
+    background-image: url(img/gif.gif);
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
@@ -34,11 +34,9 @@
     color: white !important;
 }
 .fontcadastro{
-    color: rgb(227, 220, 230) !important;
+    color: rgb(7, 7, 7) !important;
     font-weight: 900 !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    color: rgb(18, 19, 19); text-shadow: rgb(191, 0, 255) 0.1em 0.1em 0.2em !important;
- 
  }
 
   .cor1{
@@ -57,8 +55,27 @@
     transform: scale(1.5);
 }
 
+.branco2{
+    background-color: white;
   
-  
+}
 
+.fundocadastro{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+    width: 100vh;
+    min-height: 100vh;
+ }
 
+ .linha{
+    display: flex;
+ }
 
+.alinhado{
+    justify-content: center;
+}
+
+.atum{
+    color: aliceblue !important;
+    background-color: rgb(226, 57, 226) !important;
+}

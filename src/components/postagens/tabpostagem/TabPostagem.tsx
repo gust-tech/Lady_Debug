@@ -16,7 +16,7 @@ function TabPostagem() {
       <TabContext value={value}>
         <AppBar position="static">
           <Tabs centered className='imagetab' onChange={handleChange}>
-            <Tab label="Últimas Postagens" value="1"/>
+            <Tab label="Últimas Postagens 👇" value="1"/>
           </Tabs>
         </AppBar>
         <TabPanel value="1" >

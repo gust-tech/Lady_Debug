@@ -38,8 +38,8 @@ function Home() {
             <Grid container direction="row"  alignItems="center" className='imagemhome'>
                 <Grid alignItems="center" item xs={12}>
                     <Box paddingX={20} >
-                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='fontes'>Seja bem-vinda!</Typography>
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='fontes'>Esperamos que aprenda e repasse bastante conhecimento!</Typography>
+                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='fontes'>Seja bem-vinda novamente! 💖</Typography>
+                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='fontes'>Esperamos que aprenda e repasse bastante conhecimento 😉</Typography>
                     </Box>
                     <Grid xs={12}>
                         <Box  className='img4 imagemcentrada'/>

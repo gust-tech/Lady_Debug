@@ -26,7 +26,7 @@ function Footer() {
                 </Box>
                 <Box className='box2'>
                     <Box>
-                        <a target="_blank" href="https://github.com/Equipe03-Generation/Dev_Girls_React">
+                        <a target="_blank" href="https://github.com/Equipe03-Generation/Lady_Debug">
                             <Typography variant="subtitle2" gutterBottom className='textos' align="center">Repositório do Projeto</Typography>
                         </a>
                     </Box>

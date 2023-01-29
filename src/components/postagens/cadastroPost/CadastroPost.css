@@ -10,3 +10,19 @@
 .postcad{
     background-color: rgb(160, 159, 162) !important;
 }
+
+.fundopostagem{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+    width: 100vh;
+    min-height: 100vh;
+ }
+
+ .formpost{
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    padding-left: 350px !important;
+}

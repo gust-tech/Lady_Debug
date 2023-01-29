@@ -7,12 +7,12 @@ function Equipe() {
     TabTitle('Lady Debug - Equipe');
     return (
         <Grid container direction="row"  alignItems="center">
-            <Grid alignItems="center" item xs={12} className='imagemequipe1'>
+            <Grid alignItems="center" item xs={12} className='fundoequipe'>
             <div className='center'>
-                <h1 className='fontequipe tipofonteq'> Equipe Desenvolvedora </h1></div>
+                <h1 className='fontequipe tipofonteq'> Equipe Desenvolvedora 💻</h1></div>
             <div className='newspaper newspaper1 newspaper2 newspaper3'>
 
-                    <img src="https://media-exp1.licdn.com/dms/image/D4D03AQF_J4bco9BYow/profile-displayphoto-shrink_400_400/0/1668741996858?e=1675296000&v=beta&t=pF0z67kquK3VaC8jCrOoEOtQllBLHZ0OhmLmUbPRCsk" 
+                    <img src="https://media.licdn.com/dms/image/D4D03AQHYPs3Clcxwmg/profile-displayphoto-shrink_800_800/0/1672189750852?e=1680134400&v=beta&t=LF1LRc0szyPCeSbPHOkjCFzUsFIGssnyWNJ_KUkVJm0" 
                     className='tamanhos imagemequipe' alt=''/>       
                 
                 <li className='fontequipe tipofonteq'>Ana Carolina</li>
@@ -68,7 +68,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
                 </a>
                
-                    <img src="https://cdn.discordapp.com/attachments/1048221568901320804/1048242964377374731/foto-kaio.png" 
+                    <img src="https://cdn.discordapp.com/attachments/1022826880786776115/1055661708456247347/IMG_20221222_224204.jpg" 
                     className= 'tamanhos imagemequipe' alt=''/>    
                 
                 <li className='fontequipe tipofonteq'>Kaio Lima</li>

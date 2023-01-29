@@ -1,11 +1,4 @@
-.fontusuarios{
-    color: rgb(253, 251, 253) !important;
-    font-weight: 900 !important;
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    color: rgb(18, 19, 19); text-shadow: rgb(236, 165, 230) 0.1em 0.1em 0.3em !important;
- 
- }
- .imgusuarios{
+.imgusuarios{
     background-image: url(img/outerspace-60.webp);
     background-repeat: no-repeat;
     width: 100vh;
@@ -31,8 +24,19 @@
     min-height: 100px !important;
     padding: 1px !important;
 }
+
 .fonttextousuarios{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(176, 174, 176);
-    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: rgb(9, 9, 9) !important;
+    font-size: medium !important;
 }
+
+.fundousuario{
+    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
+    background-color: rgb(116, 239, 239) !important;
+ }
+
+ .papel{
+    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
+    background-color: rgb(50, 4, 100) !important;
+ }
