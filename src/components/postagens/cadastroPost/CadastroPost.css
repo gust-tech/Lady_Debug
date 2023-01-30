@@ -39,4 +39,11 @@
 
 .fontpreta {
     color: black !important;
+    
+}
+.fundocaixa{
+    background-color: white;
+}
+.fundodafontecadastro{
+    background-color: rgb(185, 74, 205),transparent !important;
 }

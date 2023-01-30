@@ -43,30 +43,33 @@
  }
 
  .forum{
-    background-image: url(img/forum.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
+    background-image: url(img/forum.png) !important;
+    background-repeat: no-repeat !important;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 130px!important;
  }
 
- .tecnlogia{
-    background-image: url(img/tecnologia.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
+ .tecnologia{
+    background-image: url(img/tecnologia.png) !important;
+    background-repeat: no-repeat !important;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 160px!important;
  }
 
  .mulher{
-    background-image: url(img/mulher.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
+    background-image: url(img/mulher.png) !important;
+    background-repeat: no-repeat !important;
+    width: 100px !important;
+    height: 100px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 130px!important;
  }
 
  .flex{
