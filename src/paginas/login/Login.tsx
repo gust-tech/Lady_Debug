@@ -67,22 +67,22 @@ function Login() {
         }
     TabTitle('Lady Debug - Login');
     return (
-        <Grid container direction='row' justifyContent='center' alignItems='center' className='fundologin1'>
+        <Grid container direction='row' justifyContent='center' alignItems='center' className='gradientefundologin'>
             <Grid alignItems='center' xs={6}>
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit} >
-                        <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='font'>Conecte-se 💻➡️🌎</Typography>
+                        <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='fontlogin'>Conecte-se</Typography>
                         <TextField className='caixalogin bordalogin' value={userLogin.usuario}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Usuario' label ='Usuario'  name='usuario' margin='normal' fullWidth />
                         <TextField className='caixalogin bordalogin' value={userLogin.senha}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha'  label='Senha' name='senha' margin='normal' type='password'fullWidth />
                         <Box marginTop={2} textAlign='center'>
-                                <Button type='submit' variant='contained' color='primary' className='atum'>
+                                <Button type='submit' variant='contained' color='primary' className='botaologar'>
                                     Logar
                                 </Button>
                         </Box>
                     </form>
                     <Box display='flex' justifyContent='center' marginTop={2} >
                         <Box marginRight={1}>
-                            <Typography variant='subtitle1' gutterBottom align='center' className='font'>Não tem uma conta? 🤔</Typography>
+                            <Typography variant='subtitle1' gutterBottom align='center' className='font'>Não tem uma conta?</Typography>
                         </Box>
                         <Link className='link' to='/cadastrousuario'>
                             <Typography variant='subtitle1' gutterBottom align='center'>Cadastre-se</Typography>

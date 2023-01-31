@@ -171,15 +171,15 @@ function CadastroPost() {
     return (
         <>
 
-    <Grid className='fundotema'>
-            <Grid alignItems="center" item xs={12} className='fundopost'>
+    <Grid className='fundopost'>
+            <Grid alignItems="center" item xs={12}>
             <form onSubmit={onSubmit}  className='formpost'>
 
-                <Typography variant="h4" className='fontpost' component="h1" align="center">Cadastro de Postagem 📝</Typography>
+                <Typography variant="h4" className='fontpost' component="h1" align="center">Cadastro de Postagem</Typography>
                 <TextField className='corpostcaixa' value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="Título" name="titulo" margin="normal" fullWidth />
                 <TextField className='corpostcaixa'value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="Texto" name="texto" margin="normal" fullWidth />
 
-                <FormControl className='fundocaixa' >
+                <FormControl className=' caixatemaeusuario' >
                     <InputLabel id="demo-simple-select-helper-label" className='fontpreta'>Tema </InputLabel>
                     <Select
                         labelId="demo-simple-select-helper-label"
@@ -195,7 +195,7 @@ function CadastroPost() {
                             ))
                         }
                     </Select>
-                    <FormControl className='fundocaixa'>
+                    <FormControl className=''>
                     <InputLabel id="demo-simple-select-helper-label" className='fontpreta'>Usuário </InputLabel>
                     <Select
                         labelId="demo-simple-select-helper-label"
@@ -213,7 +213,7 @@ function CadastroPost() {
                     </Select>
                     </FormControl>
                     <FormHelperText className='fontpreta fundodafontecadastro'>Escolha um tema e usuário para finalizar</FormHelperText>
-                    <Button type="submit" variant="contained" color="primary" className='atum'>
+                    <Button type="submit" variant="contained" color="primary" className='botaofinalizarcadastropost'>
                         Finalizar
                     </Button>
                 </FormControl>

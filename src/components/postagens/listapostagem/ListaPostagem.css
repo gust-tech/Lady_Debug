@@ -2,8 +2,8 @@
     text-decoration: none;
 }
 
-.botao{
-    background-color: rgb(226, 57, 226) !important;
+.botaodeletarpostagem{
+    background-color: rgb(7, 189, 189) !important;
 }
 
 .papelpost{
@@ -11,12 +11,6 @@
     background-color: rgb(116, 239, 239) !important;
 
 }
-
-.atum{
-color: aliceblue !important;
-background-color: rgb(226, 57, 226) !important;
-}
-
 .fundos{
     background-color: aquamarine;
 }
@@ -29,4 +23,8 @@ background-color: rgb(226, 57, 226) !important;
 
 .displayflex{
     display: flex !important;
+}
+.botaoatualizarpostagem{
+    background-color: rgb(71, 4, 102) !important;
+    color: white !important;
 }

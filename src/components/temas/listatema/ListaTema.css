@@ -2,8 +2,8 @@
     text-decoration: none;
 }
 
-.botao{
-    background-color: rgb(226, 57, 226) !important;
+.botaodeletartema{
+    background-color: rgb(7, 189, 189) !important;
 }
 .fundocaixatema{
     background:linear-gradient(rgba(52, 1, 69, 0.5),transparent) !important;
@@ -24,8 +24,9 @@
     display: flex !important;
 }
 
-.atum{
-    color: aliceblue !important;
-    background-color: rgb(226, 57, 226) !important;
-    }
+.botaoatualizartema{
+    background-color: rgb(71, 4, 102) !important;
+    color: white !important;
+}
+
 

@@ -80,10 +80,10 @@ function ListaUsuario() {
           <span className="loader"></span>
         </div>
       )}
-        <Grid container className='center'>
+        <Grid container className='center fundolistausuario'>
           {user.map((user, i) => (
-            <Box className="cardusuario" m={1}>
-              <Card className="fundousuario center" variant="outlined">
+            <Box className="cardusuario papel" m={1}>
+              <Card className="papel center" variant="outlined">
                 <CardContent>
                   <Typography
                     variant="h5"

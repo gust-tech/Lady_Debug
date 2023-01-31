@@ -3,8 +3,9 @@
 }
 
 .fundotema{
-    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
-    background-color: rgb(116, 239, 239) !important;
+    background:linear-gradient(rgb(71, 4, 102),transparent) !important;
+    background-color: rgb(7, 189, 189) !important;
+    
  }
 
  .botaocadtema{
@@ -27,15 +28,15 @@
 }
 
 .fontecadtema{
-    color: rgb(6, 6, 6) !important;
-    font-weight: 900 !important;
+    color: white !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    text-shadow: 7px 7px 5px black!important;
 }
 .cortemacaixa{
     background-color: white !important;
 }
 
-.atum{
-    color: aliceblue !important;
-    background-color: rgb(226, 57, 226) !important;
+.botaofinalizarcadastrotema{
+   background-color: rgb(71, 4, 102) !important;
+   color: white !important;
 }

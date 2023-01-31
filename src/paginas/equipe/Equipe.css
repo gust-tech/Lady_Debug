@@ -49,20 +49,14 @@
 .regular{
     font-family: 'Courier New', Courier, monospace !important;
 }
-
-.tipofonteq {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .fontequipe{
-    color: rgb(7, 7, 7) !important;
-    font-weight: 900 !important;
+    color: white !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
- 
+    text-shadow: 7px 7px 5px black!important;
  }
 
 .fundoequipe{
-    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
-    background-color: rgb(116, 239, 239) !important;
-    width: 100vh;
-    min-height: 100vh;
+    background:linear-gradient(rgb(71, 4, 102),transparent) !important;
+    background-color: rgb(7, 189, 189) !important;
+    
  }

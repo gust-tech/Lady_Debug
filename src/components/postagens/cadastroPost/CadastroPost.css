@@ -12,10 +12,9 @@
 }
 
 .fundopost{
-    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
-    background-color: rgb(116, 239, 239) !important;
-    width: 100vh;
-    min-height: 100vh;
+    background:linear-gradient(rgb(71, 4, 102),transparent) !important;
+    background-color: rgb(7, 189, 189) !important;
+    
  }
 
 .formpost{
@@ -28,9 +27,9 @@
 }
 
 .fontpost {
-    color: rgb(6, 6, 6) !important;
-    font-weight: 900 !important;
+    color: white !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    text-shadow: 7px 7px 5px black!important;
 }
 
 .corpostcaixa{
@@ -42,8 +41,22 @@
     
 }
 .fundocaixa{
-    background-color: white;
+    background-color: rgb(145, 142, 142);
+    
 }
 .fundodafontecadastro{
-    background-color: rgb(185, 74, 205),transparent !important;
+    color: black!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: small !important;
+}
+.botaofinalizarcadastropost{
+    background-color: rgb(71, 4, 102) !important;
+    width: 20vh !important;
+
+}
+.caixatemaeusuario{
+    width: 60vh !important;
+    min-height: 10vh !important;
+    padding: 1px !important;
+    padding-left: 10px !important;
 }

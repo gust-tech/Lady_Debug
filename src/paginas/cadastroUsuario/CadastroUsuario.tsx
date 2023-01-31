@@ -86,7 +86,7 @@ function CadastroUsuario() {
             <Grid item xs={12} alignItems='center'>
                 <Box paddingX={50}>
                     <form onSubmit={onSubmit}>                        
-                        <Typography variant='h2' gutterBottom color='textPrimary' component='h2' align='center' className='fontcadastro'>Crie sua conta abaixo 🥰👇</Typography>
+                        <Typography variant='h4' gutterBottom color='textPrimary' component='h4' align='center' className='fontcadastro'>Crie sua conta abaixo</Typography>
                         <TextField className='branco2' value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='nome' label='Nome' name='nome' margin='normal' fullWidth />
                         <TextField className='branco2' value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}id='usuario' label='Email' name='usuario' margin='normal'fullWidth />
                         <TextField className='branco2' value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}id='senha' label='Senha'  name='senha' margin='normal' type='password' fullWidth />
@@ -94,11 +94,11 @@ function CadastroUsuario() {
                         <TextField className='branco2' value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='foto' label='Foto' name='foto' margin='normal' fullWidth />
                         <Box marginTop={5} textAlign='center'>
                             <Link to='/login' className='text-decorator-none'>
-                                <Button variant='contained' color='secondary'>
+                                <Button variant='contained' color='secondary' className='botaoCancelarusuario'>
                                     Cancelar
                                 </Button>
                             </Link>
-                            <Button type='submit' variant='contained' color='primary' className='atum esquerda'>
+                            <Button type='submit' variant='contained' color='primary' className='botaocadastrousuario'>
                                     Cadastrar
                             </Button>
                         </Box>

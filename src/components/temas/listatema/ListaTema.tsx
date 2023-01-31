@@ -72,14 +72,14 @@ function ListaTema() {
 
               <Link to={`/formularioTema/${tema.id}`} className="text-decorator-none">
                 <Box mx={1}>
-                  <Button variant="contained" className="marginLeft atum" size='small'>
+                  <Button variant="contained" className="botaoatualizartema " size='small'>
                     Atualizar
                   </Button>
                 </Box>
               </Link>
               <Link to={`/deletarTema/${tema.id}`} className="text-decorator-none">
                 <Box mx={1}>
-                  <Button variant="contained" size='small' color="secondary">
+                  <Button variant="contained" size='small' color="secondary" className='botaodeletartema'>
                     Deletar
                   </Button>
                 </Box>

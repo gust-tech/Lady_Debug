@@ -15,17 +15,12 @@
     text-decoration: none;
 }
 
-.botao{
-    background-color: rgb(226, 57, 226) !important;
+.botaologar{
+    background-color: rgb(71, 4, 102) !important;
 }
 
-.papel{
-    background:linear-gradient(rgba(237, 213, 245, 0.5),transparent) !important;
-    background-color: rgb(65, 6, 127) !important;
-}
-
-.link{
-    color: rgb(226, 57, 226) !important;
+.textocadastrese{
+    color: rgb(65, 6, 127) !important;
     font-weight: 900 !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -34,10 +29,10 @@
     color: rgb(246, 240, 240) !important;
 }
 
-.font{
-    color: rgb(7, 7, 7) !important;
-    font-weight: 900 !important;
+.fontlogin{
+    color: white !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    text-shadow: 7px 7px 5px black!important;
  }
 
 .imagem3{
@@ -55,14 +50,9 @@
     font-variant-alternates: normal;
 }
 
-.fundologin1{
-    background:linear-gradient(rgb(185, 74, 205),transparent) !important;
-    background-color: rgb(116, 239, 239) !important;
-    width: 100vh;
-    min-height: 100vh;
+.gradientefundologin{
+    background:linear-gradient(rgb(71, 4, 102),transparent) !important;
+    background-color: rgb(7, 189, 189) !important;
+    
  }
  
-.atum{
-    color: aliceblue !important;
-    background-color: rgb(226, 57, 226) !important;
-    }
