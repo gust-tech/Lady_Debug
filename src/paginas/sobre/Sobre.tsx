@@ -9,7 +9,7 @@ function Sobre() {
     return (
         <Grid container direction="row"  alignItems="center">
         <Grid alignItems="center" item xs={12}  className='fundosobre'>
-            <Box padding={7} textAlign='center'>
+            <Box padding={12} textAlign='center'>
             <h1 className='fonte2'>Sobre o projeto Lady Debug </h1>
             </Box>
             <Grid container direction="row" justifyContent="center" alignItems="center">

@@ -26,7 +26,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt=''/>
                 </a>
 
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFtenqlYOWEXA/profile-displayphoto-shrink_400_400/0/1663332513743?e=1675296000&v=beta&t=zLzCQXesae3Tgv8l2qtJp_D-mZQ8cWOLB36fItPbTmM" 
+                    <img src="https://media.licdn.com/dms/image/C4D03AQFtenqlYOWEXA/profile-displayphoto-shrink_800_800/0/1663332513743?e=1680739200&v=beta&t=6SAahpLOjIYg21LJ4fV_1d5tHHmGSiwlc1YBe0C1pV4" 
                     className= 'tamanhos imagemequipe' alt=''
                      />    
                 <li className='fontequipe tipofonteq'>Raquel Soares</li>
@@ -40,7 +40,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt=''/>
                 </a>
                 
-                    <img src="https://media-exp1.licdn.com/dms/image/D4D03AQG-7Vk6-XDcaw/profile-displayphoto-shrink_400_400/0/1669336358312?e=1675296000&v=beta&t=Jo_5hUIH02L8n3wO8MEnn7Haoer57xFEeOCh0JhZX80" 
+                    <img src="https://cdn.discordapp.com/attachments/1012016391177637899/1071156573931589642/perfil.jpg" 
                     className= 'tamanhos imagemequipe' alt=''/>       
                 
                 <li className='fontequipe tipofonteq'>Gustavo Rocha</li>

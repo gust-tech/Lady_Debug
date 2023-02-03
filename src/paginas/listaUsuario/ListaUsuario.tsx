@@ -82,7 +82,7 @@ function ListaUsuario() {
       )}
         <Grid container className='center fundolistausuario'>
           {user.map((user, i) => (
-            <Box className="cardusuario papel" m={1}>
+            <Box className="cardusuario papel" m={18}>
               <Card className="papel center" variant="outlined">
                 <CardContent>
                   <Typography
