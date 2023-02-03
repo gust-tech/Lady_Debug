@@ -72,7 +72,7 @@ function Login() {
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit} >
                         <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='fontlogin'>Conecte-se</Typography>
-                        <TextField className='caixalogin bordalogin' value={userLogin.usuario}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Usuario' label ='Usuario'  name='usuario' margin='normal' fullWidth />
+                        <TextField className='caixalogin bordalogin' value={userLogin.usuario}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Usuario' label ='Email'  name='usuario' margin='normal' fullWidth />
                         <TextField className='caixalogin bordalogin' value={userLogin.senha}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha'  label='Senha' name='senha' margin='normal' type='password'fullWidth />
                         <Box marginTop={2} textAlign='center'>
                                 <Button type='submit' variant='contained' color='primary' className='botaologar'>
