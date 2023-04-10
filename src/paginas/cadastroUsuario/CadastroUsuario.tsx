@@ -8,11 +8,13 @@ import { Link } from 'react-router-dom';
 import './CadastroUsuario.css';
 import { toast } from 'react-toastify';
 import { TabTitle } from '../../tituloPaginas/GeneralFunctions';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function CadastroUsuario() {
 
     let navigate = useNavigate();
-    const [confirmarSenha,setConfirmarSenha] = useState<String>("")
+    const [confirmarSenha,setConfirmarSenha] = useState<String>("");
+    const [loading, setLoading] = useState(false);
     const [user, setUser] = useState<User>(
         {
             id: 0,
@@ -53,6 +55,7 @@ function CadastroUsuario() {
     }
     async function onSubmit(e: ChangeEvent<HTMLFormElement>) {
         e.preventDefault()
+        setLoading(true);
         if(confirmarSenha == user.senha){
         cadastroUsuario(`/usuarios/cadastrar`, user, setUserResult)
         toast.success('Usuario registrado com êxito!', {
@@ -65,6 +68,7 @@ function CadastroUsuario() {
             theme: "colored",
             progress: undefined,
             });
+            setLoading(false);
         }else{
             toast.error('Dados inconsistentes. Corrija e tente novamente.', {
                 position: "top-right",
@@ -76,6 +80,7 @@ function CadastroUsuario() {
                 theme: "colored",
                 progress: undefined,
                 });
+                setLoading(false);
         }
     }
     TabTitle('Lady Debug - Cadastro');
@@ -98,8 +103,8 @@ function CadastroUsuario() {
                                     Cancelar
                                 </Button>
                             </Link>
-                            <Button type='submit' variant='contained' color='primary' className='botaocadastrousuario'>
-                                    Cadastrar
+                            <Button type='submit' variant='contained' color='primary' className='botaocadastrousuario' disabled={loading}>
+                            {loading?<CircularProgress color="secondary" />:'Cadastrar'}
                             </Button>
                         </Box>
                     </form>
