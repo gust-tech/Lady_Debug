@@ -9,11 +9,13 @@ import { useDispatch } from 'react-redux';
 import { addToken } from "../../store/tokens/actions";
 import { toast } from 'react-toastify';
 import { TabTitle } from '../../tituloPaginas/GeneralFunctions';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function Login() {
     let navigate = useNavigate();
     const dispatch = useDispatch();
     const [token, setToken] = useState('');
+    const [loading, setLoading] = useState(false);
     const [userLogin, setUserLogin] = useState<UserLogin>(
         {
             id: 0,
@@ -41,6 +43,7 @@ function Login() {
         async function onSubmit(e: ChangeEvent<HTMLFormElement>){
             e.preventDefault();
             try{
+                setLoading(true);
                 await login(`/auth/logar`, userLogin, setToken)
                 toast.success('Usuário conectado com sucesso!', {
                     position: "top-right",
@@ -52,6 +55,7 @@ function Login() {
                     theme: "colored",
                     progress: undefined,
                     });
+                setLoading(false);
             }catch(error){
                 toast.error('Dados do usuário inconsistentes. Falha ao logar!', {
                     position: "top-right",
@@ -63,6 +67,7 @@ function Login() {
                     theme: "colored",
                     progress: undefined,
                     });
+                setLoading(false);
             }
         }
     TabTitle('Lady Debug - Login');
@@ -75,27 +80,27 @@ function Login() {
                         <TextField className='caixalogin bordalogin' value={userLogin.usuario}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Usuario' label ='Email'  name='usuario' margin='normal' fullWidth />
                         <TextField className='caixalogin bordalogin' value={userLogin.senha}  onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha'  label='Senha' name='senha' margin='normal' type='password'fullWidth />
                         <Box marginTop={2} textAlign='center'>
-                                <Button type='submit' variant='contained' color='primary' className='botaologar'>
-                                    Logar
+                                <Button type='submit' variant='contained' color='primary' className='botaologar' disabled={loading}>
+                                    {loading?<CircularProgress color="secondary" />:'Logar'}
                                 </Button>
                         </Box>
                     </form>
+                    <Box className='centralizar'>
+                    </Box>
                     <Box display='flex' justifyContent='center' marginTop={2} >
                         <Box marginRight={1}>
                             <Typography variant='subtitle1' gutterBottom align='center' className='font'>Não tem uma conta?</Typography>
                         </Box>
                         <Link className='link' to='/cadastrousuario'>
                             <Typography variant='subtitle1' gutterBottom align='center'>Cadastre-se</Typography>
-                        </Link>
-                    
-                            
-                    </Box>
-                </Box>
-            </Grid>
-            <Grid xs={6} className='imagemfundologin'>
-
+                        </Link>           
+                   </Box>
+                </Box>  
+            </Grid>  
+            <Grid xs={6} className='imagemfundologin'>  
             </Grid>
         </Grid>
+        
     );
 }
 
