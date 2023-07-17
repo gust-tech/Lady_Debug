@@ -19,6 +19,7 @@
     border-radius: 50%;
     border: 5px solid purple;
 }
+
 .newspaper{
     column-count:3;
     margin-top: 60px;
@@ -29,26 +30,33 @@
 .newspaper1{
     column-fill: auto;
 }
+
 .rx{
     background-color: rgb(6, 1, 6) !important;
 }
+
 .fundoequipe{
     background:linear-gradient(rgba(253, 35, 158, 0.5),transparent) !important;
     background-color: rgb(185, 18, 218) !important;
 
 }
+
 .branco{
     background-color: white;
 }
+
 .preto{
     color: rgb(219, 51, 213) !important;
 }
+
 .bc{
     color: white !important;
 }
+
 .regular{
     font-family: 'Courier New', Courier, monospace !important;
 }
+
 .fontequipe{
     color: white !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
@@ -59,4 +67,4 @@
     background:linear-gradient(rgb(71, 4, 102),transparent) !important;
     background-color: rgb(7, 189, 189) !important;
     
- }
+}
