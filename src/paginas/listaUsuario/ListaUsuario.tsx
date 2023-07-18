@@ -1,10 +1,10 @@
-import {  Card,  CardActions,  CardContent,  Collapse,  Grid,  IconButton,  Typography,} from '@material-ui/core';
+import { Card, CardActions, CardContent, Collapse, Grid, IconButton, Typography, } from '@material-ui/core';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import { Box } from '@mui/material';
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import {  useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { TokenState } from '../../store/tokens/tokensReducer';
 import './ListaUsuario.css';
@@ -80,31 +80,27 @@ function ListaUsuario() {
           <span className="loader"></span>
         </div>
       )}
-        <Grid container className='center fundolistausuario'>
-          {user.map((user, i) => (
-            <Box className="cardusuario papel" m={18}>
-              <Card className="papel center" variant="outlined">
-                <CardContent>
-                  <Typography
-                    variant="h5"
-                    component="h2"
-                    className="fonttextousuarios"
-                  >
-                    Nome: {user.nome}
-                    <br />
-                    E-mail: {user.usuario}
-                    <br />
-                  </Typography>
-                  <br />
-                  <Typography variant="body2" component="p">
-                    <img src={user.foto} width="350px" height="250px" alt='' />
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Box>
-          ))}
-        </Grid>
-     </>
+      <Grid container className='center fundolistausuario'>
+        {user.map((user, i) => (
+          <Box className="cardusuario papel" m={18}>
+            <Card className="papel center" variant="outlined">
+              <CardContent>
+              <div className='newspaper2'>
+                <img src={user.foto}
+                  className='tamanhos imagemequipe' alt='' />
+
+                <li className='fontequipe tipofonteq'>{user.nome}</li>
+                <a href={user.usuario} target="_blank" rel="noopener noreferrer">
+                  <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
+                    data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt='' />
+                </a>
+                </div>
+              </CardContent>
+            </Card>
+          </Box>
+        ))}
+      </Grid>
+    </>
   )
 }
 
