@@ -5,6 +5,7 @@ interface User {
     nome: string;
     usuario: string;
     senha: string;
+    linkedin: string;
     foto: string
     postagem?: Postagem| null
 }

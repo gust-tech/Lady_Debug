@@ -61,13 +61,13 @@ function ListaPostagem() {
                   Postagem
                 </Typography>
                 <Typography variant="h5" component="h2">
-                  Título: {post.titulo}
+                  {post.titulo}
                 </Typography>
                 <Typography variant="body2" component="p">
-                  Texto: {post.texto}
+                  {post.texto}
                 </Typography>
                 <Typography variant="body2" component="p">
-                  Tema: {post.tema?.assunto}
+                  {post.tema?.assunto}
                 </Typography>
                 <Typography variant="body2" component="p">
                   Postado por: {post.usuario?.nome}

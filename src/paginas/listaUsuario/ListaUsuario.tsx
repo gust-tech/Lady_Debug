@@ -80,26 +80,26 @@ function ListaUsuario() {
           <span className="loader"></span>
         </div>
       )}
-      <Grid container className='center fundolistausuario'>
-        {user.map((user, i) => (
-          <Box className="cardusuario papel" m={18}>
+
+      {user.map((user, i) => (
+        <Grid container direction="row" alignItems="center">
+          <Grid alignItems="center" item xs={12} className='fundoequipe'>
             <Card className="papel center" variant="outlined">
               <CardContent>
-              <div className='newspaper2'>
                 <img src={user.foto}
-                  className='tamanhos imagemequipe' alt='' />
+                  className='tamanhos imagemequipe centralizarftuser' alt='' />
 
                 <li className='fontequipe tipofonteq'>{user.nome}</li>
-                <a href={user.usuario} target="_blank" rel="noopener noreferrer">
+                <a href={user.linkedin} target="_blank" rel="noopener noreferrer">
                   <img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"
                     data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt='' />
                 </a>
-                </div>
               </CardContent>
             </Card>
-          </Box>
-        ))}
-      </Grid>
+          </Grid>
+        </Grid>
+      ))}
+
     </>
   )
 }
