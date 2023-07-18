@@ -10,9 +10,9 @@ function Equipe() {
             <Grid alignItems="center" item xs={12} className='fundoequipe'>
             <div className='center'>
                 <h1 className='fontequipe tipofonteq'> Equipe Desenvolvedora 💻</h1></div>
-            <div className='newspaper newspaper1 newspaper2 newspaper3'>
+            <div className='newspaper'>
 
-                    <img src="https://media.licdn.com/dms/image/D4D03AQHYPs3Clcxwmg/profile-displayphoto-shrink_800_800/0/1672189750852?e=1680134400&v=beta&t=LF1LRc0szyPCeSbPHOkjCFzUsFIGssnyWNJ_KUkVJm0" 
+                    <img src="https://media.licdn.com/dms/image/D4D03AQHYPs3Clcxwmg/profile-displayphoto-shrink_800_800/0/1672189750852?e=1695254400&v=beta&t=INiEWKgPlytXhBrU2WGLm91IINBCvVQxm2JkKQdG_1M" 
                     className='tamanhos imagemequipe' alt=''/>       
                 
                 <li className='fontequipe tipofonteq'>Ana Carolina</li>
@@ -26,7 +26,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt=''/>
                 </a>
 
-                    <img src="https://media.licdn.com/dms/image/C4D03AQFtenqlYOWEXA/profile-displayphoto-shrink_800_800/0/1663332513743?e=1680739200&v=beta&t=6SAahpLOjIYg21LJ4fV_1d5tHHmGSiwlc1YBe0C1pV4" 
+                    <img src="https://media.licdn.com/dms/image/C4D03AQFtenqlYOWEXA/profile-displayphoto-shrink_800_800/0/1663332513743?e=1695254400&v=beta&t=lKsemogDzD3VByVMBwuO97H4RxNjh6mPPdxl2FHiJjs" 
                     className= 'tamanhos imagemequipe' alt=''
                      />    
                 <li className='fontequipe tipofonteq'>Raquel Soares</li>
@@ -40,7 +40,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt=''/>
                 </a>
                 
-                    <img src="https://cdn.discordapp.com/attachments/1012016391177637899/1071156573931589642/perfil.jpg" 
+                    <img src="https://avatars.githubusercontent.com/u/111547125?v=4" 
                     className= 'tamanhos imagemequipe' alt=''/>       
                 
                 <li className='fontequipe tipofonteq'>Gustavo Rocha</li>
@@ -54,7 +54,7 @@ function Equipe() {
                         data-canonical-src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt=''/>
                 </a>
                 
-                    <img src="https://cdn.discordapp.com/attachments/1026491934602166282/1048244272496910356/IMG-20221202-WA0002.jpg"
+                    <img src="https://www.promoview.com.br/uploads/2017/04/b72a1cfe.png"
                     className= 'tamanhos imagemequipe' alt=''/>    
                 
                 <li className='fontequipe tipofonteq'>Lucas Campos</li>
