@@ -21,6 +21,7 @@ function CadastroUsuario() {
             nome: '',
             usuario: '',
             senha: '',
+            linkedin: '',
             foto: ''
         })
 
@@ -30,6 +31,7 @@ function CadastroUsuario() {
             nome: '',
             usuario: '',
             senha: '',
+            linkedin: '',
             foto: ''
         })
 
@@ -96,7 +98,8 @@ function CadastroUsuario() {
                         <TextField className='branco2' value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}id='usuario' label='Email' name='usuario' margin='normal'fullWidth />
                         <TextField className='branco2' value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}id='senha' label='Senha'  name='senha' margin='normal' type='password' fullWidth />
                         <TextField className='branco2' value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)}id='confirmarSenha' label='Confirmar Senha' name='confirmarSenha' margin='normal' type='password' fullWidth />
-                        <TextField className='branco2' value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='foto' label='Foto' name='foto' margin='normal' fullWidth />
+                        <TextField className='branco2' value={user.linkedin} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='linkedin' label='Link do LinkedIn' name='linkedin' margin='normal' fullWidth />
+                        <TextField className='branco2' value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='foto' label='Link da Foto' name='foto' margin='normal' fullWidth />
                         <Box marginTop={5} textAlign='center'>
                             <Link to='/login' className='text-decorator-none'>
                                 <Button variant='contained' color='secondary' className='botaoCancelarusuario'>
