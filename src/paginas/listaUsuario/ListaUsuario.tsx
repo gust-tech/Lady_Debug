@@ -91,9 +91,6 @@ function ListaUsuario() {
                     className="fonttextousuarios"
                   >
                     Nome: {user.nome}
-                    <br />
-                    E-mail: {user.usuario}
-                    <br />
                   </Typography>
                   <br />
                   <Typography variant="body2" component="p">
